@@ -41,6 +41,7 @@ pip install -e .
 ## Citation
 This repo does not modify or extend the RXTX algorithm beyond reproducing it in code. All credit goes to the original authors. Please cite their paper if using this code in academic work:
 
+```bibtex
 @misc{rybin2025xxt,
   title={XXᵀ Can Be Faster},
   author={Dmitry Rybin and Yushun Zhang and Zhi-Quan Luo},
@@ -49,3 +50,4 @@ This repo does not modify or extend the RXTX algorithm beyond reproducing it in 
   archivePrefix={arXiv},
   primaryClass={cs.NA}
 }
+```
