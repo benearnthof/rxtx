@@ -1,0 +1,18 @@
+[project]
+name = "rxtx"
+version = "0.1.0"
+description = "XX^T block multiplication as presented in https://arxiv.org/pdf/2505.09814"
+authors = [{name = "Bene Arnthof", email = "benearnthof@campus.lmu.de"}]
+license = "MIT"
+
+dependencies = [
+    "numpy>=1.24",
+    "tensorhue>=0.1.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
