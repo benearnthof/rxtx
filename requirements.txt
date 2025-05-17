@@ -1,4 +1,4 @@
 numpy>=1.24
 scipy>=1.10
 pytest
-matplotlib  # if you use error visualizations
+tensorhue>=0.1.0
