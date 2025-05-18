@@ -104,3 +104,11 @@ def rxtx(blocks):
 def combine_blocks(blocks):
     rows = [np.hstack(row) for row in blocks]
     return np.vstack(rows)
+
+
+def unpad_matrix(mat, target_shape: tuple[int, int]):
+    """
+    Removes padding from a matrix to return it to its original shape.
+    """
+    rows, cols = target_shape
+    return M[:rows, :cols]

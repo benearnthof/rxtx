@@ -52,3 +52,7 @@ This repo does not modify or extend the RXTX algorithm beyond reproducing it in 
       url={https://arxiv.org/abs/2505.09814}, 
 }
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
